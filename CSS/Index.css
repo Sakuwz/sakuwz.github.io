@@ -1,0 +1,74 @@
+body{
+    background-image        : url("/Images/backgroung.png");
+    background-repeat       : no-repeat;
+    background-attachment   : fixed;
+    background-position     : center;
+    background-size         : cover;
+    min-height              : 100%;
+    min-width               : 100%;     
+}
+
+div.profilePic{
+    background-image        : url("/Images/profilepic.jpg") ;
+    border-radius           : 50%;
+    width                   : 500px;
+    height                  : 500px;
+    position                : relative;
+    display                 : block;
+    margin-left             : auto;
+    margin-right            : auto;
+}
+
+div.details{
+    font-family             : monospace;
+    text-align              : center;
+    border                  : 3px solid #212c3d;
+    padding                 : 10px;
+    display                 : block;
+    margin-left             : auto;
+    margin-right            : auto;
+    font-size               : 15px;
+    font-weight             : 100;
+    background-color        : rgba(53, 71, 99,0.6);
+    border-radius           : 25px;
+}
+
+ul{
+    list-style-type         : none;
+}
+
+.name{
+
+    font-size               : 30px;
+    letter-spacing          : 3px;
+    color                   : azure;
+}
+.icon{
+    width                   : 50px;
+    height                  : auto;
+}
+
+div.media{
+    text-align              : center;
+    display                 : block;
+    margin-left             : auto;
+    margin-right            : auto;
+    
+}
+
+h4.Degree{
+    font-size               : 20px;
+    text-decoration         : underline;
+    color                   : gold;
+    
+}
+
+.Degree{
+    color                   : maroon;
+    font-size               : 20px;
+}
+
+.University{
+    color                   : maroon;
+    letter-spacing          : 4px;
+}
